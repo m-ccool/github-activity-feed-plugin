@@ -10,7 +10,7 @@ Github Activity feed Plug-in - Simple Snippet ( .html, .js)
 
 3. Add container elementent:
    -  ```
-      <scrpt>
+      <script>
         GitHubActivity.feed({ username: "your-github-username", selector: "#github-activity-feed" });
       </script>
       ```
