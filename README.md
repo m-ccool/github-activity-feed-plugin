@@ -4,10 +4,9 @@ This project shows how to integrate a **GitHub activity feed** into any HTML web
 
 ---
 ### ✨ Features
-   -   📡   Pulls recent activity from your GitHub profile
-   -   🎨   Uses **Octicons** for pretty icons
-   -   🧩   Powered by **Mustache.js** for templating
-   -   💻   Simple copy-paste integration into any HTML site
+   -   Pulls recent activity from your GitHub profile
+   -   Shows activity type + repo name
+   -   Clean, responsive UI with pure HTML/CSS
 
 ### 🚀 How It Works
 1. Load required dependencies:
@@ -26,7 +25,8 @@ This project shows how to integrate a **GitHub activity feed** into any HTML web
      ```
 
 3. Integration:
-   -   Javascript (.js) and style sheets (.css) for the plugin, Mustache, and Octicons in the ```<head>
+   -   Javascript (.js) and style sheets (.css) for the plugin, Mustache, and Octicons in the ```<head>```
+     
 4. Add container element:
    
       ```
@@ -42,3 +42,8 @@ This project shows how to integrate a **GitHub activity feed** into any HTML web
           </body>
        </html>
       ```
+  5. 
+
+
+
+**[ @m-ccool on github ](https://github.com/m-ccool)**
