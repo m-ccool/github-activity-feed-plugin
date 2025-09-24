@@ -1,11 +1,18 @@
 ## GitHub Activity Feed Plugin Example
-Github Activity feed Plug-in - Simple Snippet ( .html, .js)
+This project shows how to integrate a **GitHub activity feed** into any HTML website using a simple JavaScript plugin.
 
-===
+
+---
+### ✨ Features
+   -   📡   Pulls recent activity from your GitHub profile
+   -   🎨   Uses **Octicons** for pretty icons
+   -   🧩   Powered by **Mustache.js** for templating
+   -   💻   Simple copy-paste integration into any HTML site
 
 ### 🚀 How It Works
 1. Load required dependencies:
-   -   (*) This plugin often required the Mustache templating library and Octicons for icons.
+   -   (*)   This plugin often required the Mustache templating library and Octicons for icons.
+
 2. Javascript Snippet:
    
      ```
