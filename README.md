@@ -8,13 +8,22 @@ Github Activity feed Plug-in - Simple Snippet ( .html, .js)
    -   (*) This plugin often required the Mustache templating library and Octicons for icons.
 2. Integration:
    -   Javascript (.js) and style sheets (.css) for the plugin, Mustache, and Octicons in the ```<head>
-4. Add container elementent:
+4. Add container element:
    -   ```
        <html>
-       <head>
-          <title>GitHub</title>
-       </head>
-      <script>
-        GitHubActivity.feed({ username: "your-github-username", selector: "#github-activity-feed" });
-      </script>
+          <head>
+             <title>GitHub</title>
+          </head>
+          <body>
+             <div id="github-activity-feed"></div>
+          
+          <script>
+             GitHubActivity.feed({
+                username: "your-github-username", // 🔧 replace with username
+                selector: "#github-activity-feed"
+             )};
+          </script>
+   
+          </body>
+       </html>
       ```
